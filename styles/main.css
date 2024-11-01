@@ -148,13 +148,26 @@ li{
     height: 1px;
 }
 
+footer {
+    background-color: var(--mainBgColor);
+    border-top: 1px solid var(--mainBorderColor);
+    padding: 1em;
+    text-align: center;
+    color: var(--secondaryTextColor);
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
 
 @media(max-width:600px){
 
     .section--page{
-        padding-top: 1em;
-        padding-bottom: 1em;
-        margin-top: 3em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        margin-top: 0.5em;
     }
 
     #wrapper--hero{
