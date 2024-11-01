@@ -188,8 +188,8 @@ footer p {
         flex-direction: column;
         display: flex;
         align-items: center;
-        gap: 0.3em;
-
+        gap: 1em;
+        max-width: 100%;
     }
 
     .card--work-history{
@@ -199,6 +199,12 @@ footer p {
     img {
         max-width: 100%; /* Keeps images within screen width */
         height: auto;
+    }
+    #socials--list {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;    /* Center align for a neat look */
+        row-gap: 1em;
     }
 
 
