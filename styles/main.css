@@ -163,7 +163,10 @@ footer p {
 
 
 @media(max-width:600px){
-
+    #container--main {
+        padding: 1em; /* Adds padding around the main container */
+    }
+    
     .section--page{
         padding-top: 0.5em;
         padding-bottom: 0.5em;
@@ -198,11 +201,5 @@ footer p {
         height: auto;
     }
     
-    #socials--list {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center;    /* Center align for a neat look */
-        row-gap: 1em;
-        margin-top: 50px;         /* Space between items */
-    }
+
 }
