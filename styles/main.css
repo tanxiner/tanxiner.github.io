@@ -188,8 +188,8 @@ footer p {
         flex-direction: column;
         display: flex;
         align-items: center;
-        gap: 1em;
-        max-width: 100%;
+        gap: 0.3em;
+
     }
 
     .card--work-history{
