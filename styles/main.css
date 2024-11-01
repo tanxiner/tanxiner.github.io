@@ -184,4 +184,12 @@ li{
         max-width: 100%; /* Keeps images within screen width */
         height: auto;
     }
+    
+    #socials--list {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;    /* Center align for a neat look */
+        row-gap: 1em;
+        margin-top: 50px;         /* Space between items */
+    }
 }
