@@ -170,10 +170,18 @@ li{
 
     #wrapper--hero{
         flex-direction: column;
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        max-width: 100%;
     }
 
     .card--work-history{
         border-left: none;
         padding-left: 0;
+    }
+    img {
+        max-width: 100%; /* Keeps images within screen width */
+        height: auto;
     }
 }
