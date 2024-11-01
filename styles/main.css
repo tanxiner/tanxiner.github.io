@@ -200,12 +200,7 @@ footer p {
         max-width: 100%; /* Keeps images within screen width */
         height: auto;
     }
-    #socials--list {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center;    
-        row-gap: 0.9em;
-    }
+
 
 
 }
