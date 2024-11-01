@@ -162,7 +162,7 @@ footer p {
 }
 
 
-@media(max-width:600px){
+@media(max-width:600px){  /* mobile view*/
     #container--main {
         padding: 1em; /* Adds padding around the main container */
     }
@@ -200,6 +200,6 @@ footer p {
         max-width: 100%; /* Keeps images within screen width */
         height: auto;
     }
-    
+
 
 }
