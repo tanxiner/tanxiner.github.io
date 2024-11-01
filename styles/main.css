@@ -204,7 +204,7 @@ footer p {
         display: flex;
         flex-direction: column; /* Stack items vertically */
         align-items: center;    
-        row-gap: 1em;
+        row-gap: 0.9em;
     }
 
 
