@@ -145,6 +145,10 @@ max-width: none; /* Allow the image to extend fully */
     width: 100%;         /* Set the width of the image */
     height: auto;         /* Maintain aspect ratio */
 }
+.section--page img{
+    border: 1px solid #000; /* Add a solid black border */
+
+}
 
 .card--techstack{
     border: 1px solid var(--mainBorderColor);
