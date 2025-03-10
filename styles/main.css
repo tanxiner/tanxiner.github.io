@@ -112,6 +112,19 @@ li{
     font-size: 0.9em;
 }
 
+.bookhaven_1{
+    width: 50%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.bookhaven_2{
+    width: 80%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.bookhaven_3{
+    width: 100%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+
 .card--techstack{
     border: 1px solid var(--mainBorderColor);
     border-radius: 5px;
