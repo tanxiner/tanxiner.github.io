@@ -71,6 +71,10 @@ max-width: none; /* Allow the image to extend fully */
     gap: 10px; /* Add space between text and image */
     
 }
+.image-item img {
+    border: 1px solid #000; /* Add a solid black border */
+}
+
 
 #wrapper--hero{
     display: flex;
