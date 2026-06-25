@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tan Xin Er</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/theme-switcher.css">
+</head>
+
+<body>
+    <div id="container--main">
+        <a href="./other_projects.html">&#x2190; Go Back</a>
+        <h1>Other Projects</h1>
+        <h2>SmartTDG - AI-Powered Technical Document Generator</h2>
+        <p>This project is a web-based documentation generation system designed to automatically convert complex .NET Framework (C# and VB.NET) codebases into structured, human-readable technical documentation, helping developers and teams quickly understand large or legacy codebases without manually analyzing source code.
+        </p>
+        <p>
+          It analyzes uploaded projects by parsing their solution and source code structure, extracting key elements such as classes, methods, dependencies, and overall architecture. Using static code analysis powered by the Roslyn compiler platform, the system builds an accurate representation of how the codebase is structured.
+        </p>
+        <p>
+        To enhance understanding, the extracted data is processed using an AI model to generate clear explanations and summaries of the codebase. Users can choose from a list of AI models for the analysis. The system also automatically generates architecture and class diagrams to visually represent relationships within the project.
+        </p>
+        <p>
+        All outputs are compiled into well-formatted documentation, available in Markdown, Word, and PDF formats. The entire system is packaged as a self-contained application with a React frontend, Flask backend, and Docker-based deployment, allowing it to run fully offline for secure environments.
+        </p>
+        <h3>Technologies Used</h3>
+        <p><b>Frontend:</b> React, TypeScript, Vite</p>
+        <p><b>Backend:</b> Flask (Python)</p>
+        <p><b>AI / LLM:</b> Ollama (Local LLM), Prompt Engineering</p>
+        <p><b>Static Code Analysis:</b> Roslyn (.NET Compiler Platform)</p>
+        <p><b>Documentation Generation:</b> Python-docx, Markdown, LibreOffice</p>
+        <p><b>Diagram Generation:</b> Mermaid</p>
+        <p><b>Deployment & Packaging:</b> Docker (Offline-ready containerized system)</p>
+        <p><b>Languages:</b> Python, C#, VB.NET</p>
+        <p><b>Others:</b> REST APIs, File Parsing, System Design</p>
+
+        <section class="section--page">
+            <p><strong>SmartTDG System Workflow</strong> </p>
+            <img src="../assets/images/smarttdg/system_workflow.png" class="smarttdg_1">
+            <p><strong>SmartTDG System Architecture</strong> </p>
+            <img src="../assets/images/smarttdg/system_architecture.png" class="smarttdg_2">
+             <p><strong>SmartTDG API Prompt Template (one of many other templates)</strong> </p>
+            <img src="../assets/images/smarttdg/api_prompt_template.png" class="smarttdg_3">
+            <p><strong>SmartTDG Interfaces</strong> </p>
+            <img src="../assets/images/smarttdg/smarttdg_home_page.png" class="smarttdg_3">
+            <img src="../assets/images/smarttdg/smarttdg_how_to_page.png" class="smarttdg_3">
+            <img src="../assets/images/smarttdg/smarttdg_loading_page.png" class="smarttdg_3">
+            <img src="../assets/images/smarttdg/smarttdg_results_page.png" class="smarttdg_3">
+            <p><strong>SmartTDG Results Samples</strong> </p>
+            <img src="../assets/images/smarttdg/smarttdg_sample_doc_1.png" class="smarttdg_3">
+            <img src="../assets/images/smarttdg/smarttdg_sample_doc_2.png" class="smarttdg_3">
+            <p><strong>SmartTDG Graph Samples</strong> </p>
+            <img src="../assets/images/smarttdg/smarttdg_inheritance_hierarchy_sample.png" class="smarttdg_4">
+            <img src="../assets/images/smarttdg/smarttdg_class_diagram_sample.png" class="smarttdg_4">
+
+        </section>
+    </div>
+</body>
+<div id="theme-switcher">
+    <div class="theme" id="theme-light" data-theme="light"></div>
+    <div class="theme" id="theme-dark" data-theme="dark"></div>
+</div>
+<footer>
+    <p>&copy; 2026 Tan Xin Er. All rights reserved.</p>
+</footer>
+</body>
+<script src="../js/theme-switcher.js"></script>
+
+</html>

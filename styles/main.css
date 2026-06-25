@@ -150,6 +150,23 @@ max-width: none; /* Allow the image to extend fully */
 
 }
 
+.smarttdg_1{
+    width: 150%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.smarttdg_2{
+    width: 70%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.smarttdg_3{
+    width: 120%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.smarttdg_4{
+    width: 120%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+
 .card--techstack{
     border: 1px solid var(--mainBorderColor);
     border-radius: 5px;
@@ -176,14 +193,16 @@ max-width: none; /* Allow the image to extend fully */
 
 .card--work-history{
     border-left: 1px solid var(--mainBorderColor);
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     padding-left: 2em;
 }
 
 .line-break{
-    background-color: var(--mainBorderColor);
-    height: 1px;
+    border-top: 1px solid var(--mainBorderColor);
+    height: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 footer {
