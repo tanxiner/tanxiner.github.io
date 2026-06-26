@@ -167,6 +167,37 @@ max-width: none; /* Allow the image to extend fully */
     height: auto;         /* Maintain aspect ratio */
 }
 
+.assistedge_1{
+    width: 100%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.assistedge_2{
+    width: 100%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.assistedge_3{
+    width: 120%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+
+.roadvisionai_1{
+    width: 100%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.roadvisionai_2{
+    width: 150%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.roadvisionai_3{
+    width: 50%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.roadvisionai_4{
+    width: 120%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+
+
 .card--techstack{
     border: 1px solid var(--mainBorderColor);
     border-radius: 5px;
