@@ -180,6 +180,19 @@ max-width: none; /* Allow the image to extend fully */
     height: auto;         /* Maintain aspect ratio */
 }
 
+.quench_1{
+    width: 200%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.quench_2{
+    width: 100%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.quench_3{
+    width: 120%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+
 .roadvisionai_1{
     width: 100%;         /* Set the width of the image */
     height: auto;         /* Maintain aspect ratio */
