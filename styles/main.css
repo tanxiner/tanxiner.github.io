@@ -49,6 +49,37 @@ li{
     max-width: 700px;
     margin: 0 auto;
 }
+html, body {
+    overflow-x: hidden;
+}
+.center-text {
+    text-align: center;
+}
+/* Targets ALL images inside the main container */
+#container--main img {
+    max-width: none;           
+    height: auto;              
+    display: block;            
+    margin: 0 auto;          /* Centers it horizontally & adds vertical spacing */
+}
+/* Full-width image container */
+.full-width-image {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding-left:150px;
+    padding-right:150px;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 .section--page{
     padding-top: 0.5em;
@@ -190,6 +221,23 @@ max-width: none; /* Allow the image to extend fully */
 }
 .quench_3{
     width: 120%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+
+.kkk_1{
+    width: 50%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.kkk_2{
+    width: 80%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.kkk_3{
+    width: 100%;         /* Set the width of the image */
+    height: auto;         /* Maintain aspect ratio */
+}
+.kkk_4{
+    width: 150%;         /* Set the width of the image */
     height: auto;         /* Maintain aspect ratio */
 }
 

@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KyotoKozyKuisine - Web-Based Hotel and Restaurant Booking Platform</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/theme-switcher.css">
+</head>
+
+<body>
+    <div id="container--main">
+        <a href="./other_projects.html">&#x2190; Go Back</a>
+        <h1>Other Projects</h1>
+        <h2>KyotoKozyKuisine - Web-Based Hotel and Restaurant Booking Platform</h2>
+        <p>KyotoKozyKuisine is a web-based booking and exploration platform designed to streamline itinerary planning for 
+        tourists in Kyoto by seamlessly integrating hostel reservations with dining discovery, thereby eliminating 
+        the tedious manual process of cross-referencing maps to find restaurants near a booked accommodation. 
+        </p>
+        <p>To power the feature that recommends restaurants within a 5km radius of a user's chosen hostel, the project uses 
+            a hybrid database architecture. MySQL manages structured transactional data like users, bookings, and 
+            reviews to ensure data integrity. MongoDB handles dynamic user profiles and geospatial data, using $near 
+            and $geometry queries to fetch nearby dining options. Linking both databases with shared primary IDs 
+            creates a denormalized structure that boosts read efficiency, transforming manual travel planning into a
+             seamless experience based on location.
+        </p>
+        <br>
+        <h3>Key Features</h3>
+        <ul>
+            <li><strong>Location-Aware Restaurant Discovery:</strong> Automatically recommends dining options within a 5km radius of a user's booked hostel using MongoDB geospatial queries.</li>
+            <li><strong>Unified Booking Management:</strong> Provides a comprehensive, chronological history of upcoming and past reservations for both hostels and restaurants.</li>
+            <li><strong>Review and Rating System:</strong> Allows users to leave feedback and displays aggregated ratings and average pricing to aid decision-making.</li>
+            <li><strong>Advanced Search and Filtering:</strong> Enables wildcard name searches and filtering of hostels and restaurants based on minimum average review ratings.</li>
+            <li><strong>Dynamic User Profiles:</strong> Utilizes a flexible NoSQL structure to store and update optional user details like biographies, interests, and social media links.</li>
+            <li><strong>User Analytics and Ranking:</strong> Employs SQL window functions to rank users by review frequency and analyze name popularity for business insights.</li>
+            <li><strong>Hybrid Data Integrity:</strong> Ensures strict security and referential integrity across relational and non-relational databases using shared identifiers and cascading constraints.</li>
+        </ul>
+        <br>
+        <h3>Technologies Used</h3>
+        <p>Language: JavaScript, HTML, CSS</p>
+        <p>Frontend: EJS, JavaScript, CSS</p>
+        <p>Backend: Node.js, Express.js</p>
+        <p>Databases & Tools: MySQL, MongoDB, Mongoose, Postman API</p>
+        <br>
+        <section class="section--page">
+            <p class="center-text"><strong>System Design</strong> </p>
+            <img src="../assets/images/kyotokozykuisine/kkk_system_design.jpg" class="kkk_1">
+            <br><br>
+
+            <p class="center-text"><strong>Database Design</strong> </p>
+            <img src="../assets/images/kyotokozykuisine/kkk_relational_db.png" class="kkk_2">
+            <br><br>
+            
+            <p class="center-text"><strong>Home & About Page</strong> </p>
+            <div class="full-width-image">
+            <section  class="section--page--grid">
+            <img src="../assets/images/kyotokozykuisine/kkk_home_page.png" class="kkk_3">
+            <img src="../assets/images/kyotokozykuisine/kkk_about_page.png" class="kkk_3">
+            </section>
+            </div>
+            
+            <br><br>
+            <p class="center-text"><strong>Login & Register Page</strong> </p>
+            <div class="full-width-image">
+            <section  class="section--page--grid">
+            <img src="../assets/images/kyotokozykuisine/kkk_login_page.png" class="kkk_3">
+            <img src="../assets/images/kyotokozykuisine/kkk_register_page.png" class="kkk_3">
+            </section>
+            </div>
+            
+            <br><br>
+            <p class="center-text"><strong>User Features</strong> </p>
+            <div class="full-width-image">
+            <section  class="section--page--grid">
+            <img src="../assets/images/kyotokozykuisine/kkk_user_hostels_page.png" class="kkk_3">
+            <img src="../assets/images/kyotokozykuisine/kkk_user_booking_form_hostel_page.png" class="kkk_3">
+            <img src="../assets/images/kyotokozykuisine/kkk_user_restaurant_page.png" class="kkk_3">
+            <img src="../assets/images/kyotokozykuisine/kkk_user_booking_form_restaurant_page.png" class="kkk_3">
+            <img src="../assets/images/kyotokozykuisine/kkk_user_nearby_restaurant_page.png" class="kkk_3">
+            <img src="../assets/images/kyotokozykuisine/kkk_user_edit_profile_page.png" class="kkk_3">
+            </section>
+            </div>
+
+
+            <br><br>
+            <p class="center-text"><strong>Admin Features</strong> </p>
+            <div class="full-width-image">
+            <section  class="section--page--grid">
+            <img src="../assets/images/kyotokozykuisine/kkk_admin_accounts_page.png" class="kkk_3">
+            <img src="../assets/images/kyotokozykuisine/kkk_admin_bookings_page.png" class="kkk_3">
+            </section>
+            </div>
+
+        </section>
+    </div>
+</body>
+<div id="theme-switcher">
+    <div class="theme" id="theme-light" data-theme="light"></div>
+    <div class="theme" id="theme-dark" data-theme="dark"></div>
+</div>
+<footer>
+    <p>&copy; 2026 Tan Xin Er. All rights reserved.</p>
+</footer>
+</body>
+<script src="../js/theme-switcher.js"></script>
+
+</html>
