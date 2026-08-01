@@ -61,6 +61,7 @@ html, body {
     height: auto;              
     display: block;            
     margin: 0 auto;          /* Centers it horizontally & adds vertical spacing */
+    border: 1px solid #000;
 }
 /* Full-width image container */
 .full-width-image {
@@ -79,7 +80,12 @@ html, body {
     height: auto;
     display: block;
 }
-
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    gap: 10px; /* Fixed from gap-bottom */
+}
 
 .section--page{
     padding-top: 0.5em;
@@ -89,6 +95,7 @@ html, body {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Create 3 equal columns */
     gap: 20px; /* Space between items */
+    
 }
 
 .quench_grid{
@@ -99,9 +106,9 @@ max-width: none; /* Allow the image to extend fully */
     display: flex;
     flex-direction: column;
     align-items: stretch; /* Remove centering and allow elements to stretch */
-    gap: 10px; /* Add space between text and image */
     
 }
+
 .image-item img {
     border: 1px solid #000; /* Add a solid black border */
 }
