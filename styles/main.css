@@ -320,6 +320,8 @@ footer p {
 @media(max-width:600px){  /* mobile view*/
     #container--main {
         padding: 1em; /* Adds padding around the main container */
+        max-width: 100% !important;
+        width: auto !important;
     }
     
     .section--page{
